@@ -1,0 +1,20 @@
+.containerStepper {
+	display: flex;
+}
+.buttonStepper {
+	width: 30px;
+	height: 30px;
+	background-color: #dee2e6;
+	border-radius: 8px;
+	border: none;
+	cursor: pointer;
+}
+.spanStepper {
+	width: 30px;
+	height: 30px;
+	border-radius: 8px;
+	border: none;
+
+	text-align: center;
+	line-height: 30px;
+}

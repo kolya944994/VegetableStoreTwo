@@ -1,0 +1,24 @@
+.containerProducts {
+	margin: 20px 70px;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 15px;
+}
+
+.containerSkeletonCard {
+	background-color: white;
+	height: 380px;
+	width: 302px;
+	border-radius: 24px;
+}
+
+.skeletonCard {
+	margin: 15px auto;
+	height: 276px;
+	width: 276px;
+	background-color: #f3f5fa;
+	border-radius: 12px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}

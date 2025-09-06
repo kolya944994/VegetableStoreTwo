@@ -1,0 +1,8 @@
+.positionCart {
+	display: flex;
+	justify-content: space-between;
+}
+
+.positionButton {
+	margin-left: 15px;
+}

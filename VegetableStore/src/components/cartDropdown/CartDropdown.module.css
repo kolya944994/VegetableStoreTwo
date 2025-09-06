@@ -1,0 +1,49 @@
+.cartDropdownPosition {
+	min-height: 170px;
+	max-height: 700px;
+	overflow-y: auto;
+	position: absolute;
+	top: 70px;
+	right: 15px;
+	z-index: 999;
+}
+.imgPositionDropDawn {
+	display: block;
+	margin: 0 auto;
+	width: 118px;
+	height: 106px;
+}
+.textPositionDropDawn {
+	text-align: center;
+	color: #868e96;
+}
+.positionCartDropdown {
+	margin: -30px 15px;
+}
+.positionEmptyCartDropdown {
+	width: 250px;
+}
+.pos {
+	display: flex;
+
+	align-items: center;
+	gap: 32px;
+
+	border-bottom: 1px solid #eee;
+}
+.cartDropdownName {
+	margin-bottom: 5px;
+}
+.cartDropdownPrice {
+	margin-top: 0;
+}
+.spanCartDropdown {
+	margin-top: 30px;
+}
+.totalCartDropdown {
+	margin: 10px 15px;
+}
+.totalAllCartDropdown {
+	display: flex;
+	justify-content: space-between;
+}

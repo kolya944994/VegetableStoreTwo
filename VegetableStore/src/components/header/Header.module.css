@@ -1,0 +1,38 @@
+.containerPosition {
+	position: fixed;
+	z-index: 9999;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+.containerNav {
+	display: flex;
+	justify-content: space-between;
+
+	background-color: #ffffff;
+}
+.container {
+	margin: 10px 15px;
+}
+.logo {
+	text-decoration: none;
+}
+.leftLogo {
+	font-weight: bold;
+	font-size: 22px;
+	color: black;
+	background-color: #f7f7f7;
+	padding: 0px 40px 0px 12px;
+	border-radius: 21px;
+}
+.rightLogo {
+	position: relative;
+	right: 34px;
+	font-weight: medium;
+	font-size: 22px;
+	color: white;
+	background-color: #54b46a;
+	padding: 0 12px;
+	border-radius: 21px;
+}
